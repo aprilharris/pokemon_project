@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+}
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	background-color: #FFF7E9;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	min-height: 35vh;
+	background-color: #0e2b63;
+}
+
+.display-1,
+.display-2, 
+.display-3, 
+.display-4, 
+.display-5, 
+.display-6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+

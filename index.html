@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Pokemon Project</title><!--     jQUERY -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+	</script><!--     GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"><!--     BOOTSTRAP CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"><!--     CUSTOM CSS -->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header class="d-flex align-items-center">
+		<div class="container p-5 text-center">
+			<h1 class="display-2 text-light">Pokémon Project</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container text-center p-5">
+			<h1>Search for a Pokémon!</h1>
+			<div class="pokeSearch form-signin w-100 m-auto">
+        
+        <!--       <p>Search</p>  -->
+			<div class="input-group">
+				<input class="pokemon form-control" placeholder="Pokémon name..." type="text"> <button class="btn btn-primary searchButton" onclick="fetchPokemon()">Search</button>
+			</div><br>
+			<!-- Place holders for the information we will populate from our API. (For now let’s get the Name, ID, and Front Image for the pokemon) -->
+			<h3 id="res"></h3>
+			<h3 id="pokeId"></h3>
+        <img id="front" src="" class="img-fluid">
+      
+		</div>
+	</main><!--     BOOTSTRAP JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+	</script> <!--     CUSTOM JS -->
+	 
+	<script src="script.js">
+	</script>
+</body>
+</html>
