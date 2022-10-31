@@ -1,5 +1,5 @@
-/* optional: uncomment the below code if you want to execute function when the user hits the ENTER key */
-document.addEventListener('keypress', ({key}) => key === 'Enter' && fetchPokemon());
+/* optional: the line below executes the fetchPokemon() function when the user hits the enter/return key on their keyboard */
+document.addEventListener('keydown', ({key}) => key === 'Enter' && fetchPokemon());
 
 function fetchPokemon() {
   
