@@ -16,6 +16,10 @@ header {
 	background-color: #0e2b63;
 }
 
+main{
+  min-height: 75vh;
+}
+
 .display-1,
 .display-2, 
 .display-3, 
@@ -25,12 +29,11 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.form-signin {
-  max-width: 330px;
-  padding: 15px;
+.pokedexResults{
+         font-family: 'Baloo 2', cursive;
 }
-
-.form-signin .form-floating:focus-within {
-  z-index: 2;
+footer {
+  background-color: #0e2b63;
+  color: #efefef;
+  text-align: center;
 }
-
