@@ -14,7 +14,7 @@ function fetchPokemon() {
 
   request.onload = function() {
     if (this.response == "Not Found") {
-      $('#res').text(`Search result for ${pokemon}`);
+      $('#res').text(`Search result for: ${pokemon}`);
       $('#pokeId').text(`Pokemon not found. Please try again.`);
     } else {
       let data = JSON.parse(this.response);
