@@ -23,7 +23,8 @@ $("#pokeId").text(`Pokémon not found. Please try again.`);
         let frontImg = data.sprites.front_default;
         let pokeId = data.id;
 
-        $('#res').text(`Results for: ${pokemon}`);
+        $('#res').text(`Results for: ${pokemon.length}`);
+    
         $('#pokeId').text(`Pokedex ID#: ${pokeId}`);
         $('#front').attr('src', frontImg);
       }
