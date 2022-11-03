@@ -24,24 +24,28 @@
 			<h1 class="display-2 text-warning">Pokémon Project</h1>
 		</div>
 	</header>
-	<main>
+	<main class="text-center">
 		<div class="container text-center p-5">
-			<h1>Search for a Pokémon!</h1>
-			<div class="pokeSearch form-signin w-100 m-auto">
+      <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+			<h1 class="mb-5">Search for a Pokémon!</h1>
+
         
-        <!--       <p>Search</p>  -->
-			<div class="input-group mb-5">
-<input class="pokemon form-control" placeholder="Pokémon name..." type="text"> 
+			<div class="input-group input-group-lg mb-5">
+<!--         TEXT FIELD -->
+        <input class="pokemon form-control" placeholder="Pokémon name..." type="text"> 
+<!--         SEARCH BUTTON -->
         <button class="btn btn-primary searchButton" onclick="fetchPokemon()">Search</button>
 			</div>
 <!--         <br> -->
 			<!-- Placeholders for the information we will populate from our API. (For now let’s get the Name, ID, and Front Image for the pokemon) -->
         <div class="pokedexResults text-center">
-			<h3 id="res" class="mb-3"> </h3>
+			<h3 id="res" class="mb-3"></h3>
 			<h3 id="pokeId" class="mb-3"></h3>
-        <img id="front" src="" class="img-fluid">
+      <img id="front" src="" class="img-fluid">
         
         </div>
+		</div>
 		</div>
 	</main>
   <footer class="footer sticky-bottom text-center p-5">
